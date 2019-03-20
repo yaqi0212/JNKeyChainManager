@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JNKeyChainManager (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JNKeyChainManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JNKeyChainManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JNKeyChainManager: 4dae66f5eafd56b212855e8ca3ff8f79a73b5f3c
+
+PODFILE CHECKSUM: 86cf91f0aa159edb797704944c045622d5fbfe16
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module JNKeyChainManager {
+  umbrella header "JNKeyChainManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
